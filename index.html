@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodBox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>FoodBox</h1>
+        <h2>Monte seu box e receba em 15 minutos!</h2>
+    </header>
+    <main>
+        <h3>Primeiro seu prato</h3>
+        <div id="macarrao" class="produto" onclick="escolherMacarrao()">
+            <img src="https://www.sabornamesa.com.br/media/k2/items/cache/1da7a0ac7a34d319d36fde2ba2a083ea_XL.jpg" alt="Macarrão ao molho">
+            <h4>Macarrão ao molho</h4>
+            <p>Macarrão espaguete ao molho bolonhesa</p>
+            <p><strong>R$ 19,90</strong></p>
+        </div>
+        <div id="carne" class="produto" onclick="escolherCarne()">
+            <img src="https://comunidadeviadutos.com.br/uploads/noticias/3409/Carne-salada-Foto-Photoxpress-600OK.jpg" alt="Carne e Salada">
+            <h4>Carne e Salada</h4>
+            <p>Carne cortada em pedacinhos com salada especial</p>
+            <p><strong>R$ 24,90</strong></p>
+        </div>
+
+        <h3>Agora sua bebida</h3>
+        <div id="coca" class="produto" onclick="escolherCoca()">
+            <img src="https://segredosdomundo.r7.com/wp-content/uploads/2022/02/coca-zero-e-saudavel-5.jpg" alt="Coca-cola em lata">
+            <h4>Coca-cola gelada</h4>
+            <p>Original, Zero ou Light (250ml)</p>
+            <p><strong>R$ 5,90</strong></p>
+        </div>
+        <div id="suco" class="produto" onclick="escolherSuco()">
+            <img src="https://agorarn.com.br/files/uploads/2018/12/rtruherue.jpg" alt="Copo de suco">
+            <h4>Copo de Suco</h4>
+            <p>Sabor Laranja, Maracujá, Goiaba, Cajú ou Acerola</p>
+            <p><strong>R$ 3,90</strong></p>
+        </div>
+
+        <h3>Por fim, sua sobremesa</h3>
+        <div id="pudim" class="produto" onclick="escolherPudim()">
+            <img src="https://s2.glbimg.com/115DQucrWsNOUxf_ncmMUisprZI=/0x0:1080x819/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2020/w/a/cB6VP5QoOByFKEuCleIQ/jonreceitas-109758346-416338779271002-5424220606850697813-n.jpg" alt="Pudim">
+            <h4>Pudim</h4>
+            <p>Pudim de leite com calda de caramelo (fatia)</p>
+            <p><strong>R$ 7,90</strong></p>
+        </div>
+        <div id="sorvete" class="produto" onclick="escolherSorvete()">
+            <img src="https://polosulsc.com.br/wp-content/webp-express/webp-images/uploads/2018/03/Tr%C3%AAs-tipos-e-sabores-de-sorvete-diferentes-1.jpg.webp" alt="Sorvete">
+            <h4>Sorvete (três bolas)</h4>
+            <p>Sabor Chocolate, Morango, Flocos, Ninho trufado e Napolitano</p>
+            <p><strong>R$ 3,90</strong></p>
+        </div>
+        <button onclick="finalizarPedido()">Finalizar pedido</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
